@@ -31,10 +31,6 @@ public class ModBlocks {
     public static void registerModBLocks() {
         Tutorialmod.LOGGER.info("Registering Mod Blocks for " + Tutorialmod.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(ModBlocks.YEP_FROSTY_BLOCK);
-        });
-
     }
 
 }

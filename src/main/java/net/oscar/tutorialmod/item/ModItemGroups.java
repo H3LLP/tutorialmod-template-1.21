@@ -18,6 +18,7 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.tutorialmod.the_special_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.YEP_FROSTY);
+                        entries.add(ModItems.YEP_FROSTY_CHISEL);
                     }).build());
 
 
